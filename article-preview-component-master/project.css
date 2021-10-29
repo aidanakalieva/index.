@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: hsl(217, 19%, 35%);
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+ 
+  width: 55%;
+  border-radius: 10px;
+  
+  background-color: white;
+  
+}
+
+.container .img{
+  
+  border-radius: 10px 0px 0px 10px;
+  width: 375px;
+height: 350px;
+}
+
+.text{
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+ position: relative;
+  padding: 5px;
+}
+.text .heading{
+  font-family: 'Manrope', sans-serif;
+  font-weight: 700;
+  margin-bottom: 5%;
+  font-size: 25px;
+  margin-top: 50px;
+}
+.text .subText{
+  font-size: 14px;
+  margin-bottom: 3%;
+}
+.text .Michelle {
+display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+ margin-top: 5%;
+ height: 100%;
+}
+.text .Michelle .avatar-michelle{
+  display: flex;
+  justify-content: space-between;
+  width: 42%;
+}
+.text .Michelle .avatar-michelle img{
+  border-radius: 100px;
+  width: 60px;
+margin-top: 20px;
+}
+.name{
+  margin-top: 10px;
+}
+.Michelle #button{
+  background-color: hsl(210, 46%, 94%);
+  border-radius: 50px;
+padding: 8px;
+margin-right: 4%;
+display: inline-block;
+cursor: pointer;
+color: white;
+border: none;
+}
+.share{
+  padding: 3%;
+background-color: hsl(217, 46%, 41%);
+color: hsl(212, 23%, 69%);
+display: flex;
+width: 40%;
+align-items: center;
+border-radius: 10px;
+justify-content: space-around;
+position: absolute;
+top: 230px;
+left: 330px;
+display: none;
+
+}
+.share .share-icon{
+  display: flex;
+  align-items: center;
+  width: 50px;
+  justify-content: space-evenly;
+
+}
+.Michelle #buttonClose{
+  background-color: hsl(210, 46%, 94%);
+  border-radius: 50px;
+padding: 8px;
+margin-right: 4%;
+display: inline-block;
+cursor: pointer;
+color: white;
+border: none;
+display: none;
+}
